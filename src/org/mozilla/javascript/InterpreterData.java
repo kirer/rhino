@@ -11,7 +11,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 import org.mozilla.javascript.debug.DebuggableScript;
 
-final class InterpreterData implements Serializable, DebuggableScript {
+public final class InterpreterData implements Serializable, DebuggableScript {
     private static final long serialVersionUID = 5067677351589230234L;
 
     static final int INITIAL_MAX_ICODE_LENGTH = 1024;

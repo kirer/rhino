@@ -421,15 +421,15 @@ public final class Interpreter extends Icode implements Evaluator {
         return InterpretedFunction.createFunction(cx, scope, itsData, staticSecurityDomain);
     }
 
-    private static int getShort(byte[] iCode, int pc) {
+    public static int getShort(byte[] iCode, int pc) {
         return (iCode[pc] << 8) | (iCode[pc + 1] & 0xFF);
     }
 
-    private static int getIndex(byte[] iCode, int pc) {
+    public static int getIndex(byte[] iCode, int pc) {
         return ((iCode[pc] & 0xFF) << 8) | (iCode[pc + 1] & 0xFF);
     }
 
-    private static int getInt(byte[] iCode, int pc) {
+    public static int getInt(byte[] iCode, int pc) {
         return (iCode[pc] << 24)
                 | ((iCode[pc + 1] & 0xFF) << 16)
                 | ((iCode[pc + 2] & 0xFF) << 8)
