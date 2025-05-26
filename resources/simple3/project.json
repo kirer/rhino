@@ -1,0 +1,34 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "A23179AA-1",
+    "build_number": 1,
+    "build_time": 1728819958962,
+    "release": true
+  },
+  "encryptLevel": 1,
+  "useFeatures": [],
+  "icon": "res/logo.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashIcon": "res/splashIcon.png",
+    "splashText": "DY福袋助手",
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "DY福袋助手",
+  "optimization": {
+    "removeOpenCv": true,
+    "unusedResources": false
+  },
+  "packageName": "com.fudaipengfei.script",
+  "scripts": {},
+  "signingConfig": {
+    "alias": "com.fudaipengfei.script",
+    "keystore": "/storage/emulated/0/脚本/.keystore/fudaipengfei.jks",
+    "uuid": "a155ed03-62ec-4057-b2da-787715bc4ebc"
+  },
+  "versionCode": 1,
+  "versionName": "1.1.0"
+}

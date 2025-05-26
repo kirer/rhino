@@ -1,0 +1,45 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "045B8BA7-26",
+    "build_number": 26,
+    "build_time": 1728214543350,
+    "release": true
+  },
+  "encryptLevel": 3,
+  "features": {
+    "activityIntentTasks": true,
+    "nodejs": "auto"
+  },
+  "icon": "images/ic_app_logo.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashIcon": "images/ic_splash.png",
+    "splashText": "好好学习 \u003c🌹CYY🌹\u003e 天天向上",
+    "stableMode": true
+  },
+  "main": "main.js",
+  "name": "护士秘书",
+  "optimization": {
+    "obfuscateComponents": false,
+    "removeAccessibilityService": false,
+    "removeOpenCv": false,
+    "unusedResources": false
+  },
+  "packageName": "autojsproHLZS.cszcszv163",
+  "permissionConfig": {
+    "requestListOnStartup": [
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ]
+  },
+  "scripts": {},
+  "signingConfig": {
+    "alias": "cszcszv163",
+    "keystore": "/storage/emulated/0/CSZ_File/IT技术/编程学习/autojs/.keystore/autojspro.jks",
+    "uuid": "b62ba6d3-ebbc-428a-8989-1a2beceec1fd"
+  },
+  "useFeatures": [],
+  "versionCode": 2,
+  "versionName": "2.0.0"
+}
